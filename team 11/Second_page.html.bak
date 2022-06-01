@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="Second_page.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header">
+      <img src="stussy.jpg" alt="stussy"/>
+	  <h1>Stussy</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div id="navbar">
+      <a href="#">HOME</a>
+      <a href="#best_seller_products">BEST SELLER PRODUCTS</a>
+    </div>
+
+    <!-- Content (Flexible)-->
+    <div id="content">
+      <div class="about">
+        <h2>About Stussy</h2>
+		<img class="stussylogo" src="stussy.jpg" width="250" height="250"/>
+		</br>
+        <p class="stussylink"><a href="https://www.stussy.co.kr/">Go to Stussy Website</a></p>
+
+        <h3>Brand History</h3>
+		<p>스투시(STUSSY)는 1980년 숀 스투시(Shawn Stussy)가 본인의 캘리포니아주 라구나 비치 일대에서 본인의 서명을 그려 넣은 티셔츠를 판매하면서 시작된 브랜드입니다. 
+		지역 일대 서퍼들의 사랑을 받던 스투시는 위트 있는 그래픽 디자인으로 전 세계인의 사랑을 받는 스트릿 웨어의 중심 브랜드가 되었습니다. 
+		1980년대부터 현재까지 시대를 뛰어넘는 디자인과 서퍼, 보더, DJ, 힙합까지 다양한 문화를 반영한 아이템을 선보입니다.
+		</p>
+      </div>
+      <div class="main">
+	  <!-- Features -->
+		<section id="features">
+					<div>
+							<!-- Feature #1 -->
+							<section>
+								<h2 id="best_seller_products">Best seller Products</h2>
+							<div class="d_shirt">
+								<img class="shirt" src="stussy_basic_shirt.jpg" alt="" width="400" height="400" /></a>
+								<p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; STUSSY BASIC WHITE T-SHIRT</p>
+							</div>
+								<img class="cap"src="stussy_cap.jpg" alt="" width="400" height="400" /></a>
+								
+							</section>
+					</div>
+				</div>
+			</div>
+		</section>
+      </div>
+    </div>
+  </body>
+</html>
